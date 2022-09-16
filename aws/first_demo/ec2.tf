@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "shikha-TF_Cloud_CersionControlledWF"
+    Name = "shikha-TF_Cloud_VersionControlledWF"
     Env = "test"
     Owner = "shikha"
   }
