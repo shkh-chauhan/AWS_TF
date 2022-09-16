@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "shikha-vm_tf_Cloud"
+    Name = "shikha-vm_tf_Cloud1"
     Env = "test"
     Owner = "shikha"
   }
